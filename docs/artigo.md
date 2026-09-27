@@ -1,4 +1,4 @@
-# Desenvolvimento e Organização de um Banco de Dados PostgreSQL para uma Clínica Veterinária
+# Desenvolvimento e Organização de um Banco de Dados PostgreSQL para a Clínica Veterinária Melhor Amigo.
 
 ## 1. Introdução
 

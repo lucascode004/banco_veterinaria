@@ -1,6 +1,6 @@
 # Banco de Dados - Clínica Veterinária
 
-Projeto de banco de dados desenvolvido para uma clínica veterinária.
+Projeto de banco de dados desenvolvido para a clínica veterinária Melhor Amigo.
 
 ## Estrutura do projeto
 

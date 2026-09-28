@@ -18,16 +18,6 @@ banco_veterinaria/
 │
 └── README.md
 
-## Descrição
-
-Este projeto consiste em um banco de dados para a clínica veterinária Melhor Amigo, desenvolvido em PostgreSQL.
-
-O banco foi organizado em três schemas:
-
-- site: informações de clientes, pets, produtos, carrinhos, pedidos e serviços.
-- adm: informações administrativas, funcionários, estoque e histórico.
-- contabil: informações relacionadas a pagamentos, plano de contas e lançamentos contábeis.
-
 ## Execução dos scripts
 
 Os scripts devem ser executados na seguinte ordem:

@@ -6,7 +6,10 @@ Os scripts devem ser executados na seguinte ordem:
 2. scripts/adm.sql
 3. scripts/contabil.sql
 
-Essa ordem é necessária porque existem chaves estrangeiras entre tabelas de diferentes schemas.
+Primeiramente, deve ser executado o `site.sql`, pois ele cria o schema `site` e suas principais tabelas, como `tutor_cliente`, `pet`, `produto`, `carrinho`, `pedido` e `servico`. Essas tabelas são utilizadas como referência por outras tabelas do projeto.
+Em seguida, deve ser executado o `adm.sql`. Além de criar o schema `adm` e suas tabelas, esse script cria relacionamentos com tabelas do schema `site`. Um exemplo é a tabela `adm.estoque`, que possui uma chave estrangeira que referencia `site.produto`. O script também cria uma chave estrangeira entre `site.carrinho` e `adm.estoque`.
+Por último, deve ser executado o `contabil.sql`, que cria o schema `contabil` e suas tabelas. Esse schema possui chaves estrangeiras que fazem referência a tabelas já criadas nos schemas `site` e `contabil`, como `site.servico`, `site.pedido` e `contabil.plano_contas`.
+Portanto, a sequência `site.sql - adm.sql - contabil.sql` garante que as tabelas referenciadas já existam no momento em que as chaves estrangeiras forem criadas, evitando erros de dependência durante a execução dos scripts.
 
 * Modelos lógicos
 

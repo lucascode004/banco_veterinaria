@@ -18,7 +18,7 @@ banco_veterinaria/
 │
 └── README.md
 
-## Execução dos scripts
+* Execução dos scripts
 
 Os scripts devem ser executados na seguinte ordem:
 
@@ -28,7 +28,7 @@ Os scripts devem ser executados na seguinte ordem:
 
 Essa ordem é necessária porque existem chaves estrangeiras entre tabelas de diferentes schemas.
 
-## Modelos lógicos
+* Modelos lógicos
 
 Os modelos lógicos foram desenvolvidos utilizando o brModelo:
 
@@ -36,21 +36,21 @@ Os modelos lógicos foram desenvolvidos utilizando o brModelo:
 - `docs/Lógico_2.brM3` — modelo lógico do schema `adm`.
 - `docs/Lógico_3.brM3` — modelo lógico do schema `contabil`.
 
-## Views
+* Views
 
 Foram criadas views para facilitar consultas frequentes:
 
-### Schema `site`
+* Schema `site`
 
 - `site.clientes_pets`: utilizada pela equipe do site para consultar clientes e seus respectivos pets.
 - `site.produto_catalogo`: utilizada pela equipe do site para visualizar os produtos disponíveis no catálogo.
 
-### Schema `adm`
+* Schema `adm`
 
 - `adm.lista_clientes`: utilizada pela equipe administrativa para consultar os dados dos clientes.
 - `adm.relatorio_funcionarios`: utilizada pela equipe administrativa para consultar informações dos funcionários.
 
-## Constraints
+* Constraints
 
 Foram adicionadas constraints `CHECK` para garantir a integridade dos dados:
 

@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Este projeto tem como objetivo desenvolver e organizar um banco de dados para a clínica veterinária fictícia Melhor Amigo. O sistema foi pensado para armazenar e organizar informações importantes para o funcionamento da clínica, como dados de clientes, animais de estimação, produtos, serviços, pedidos, estoque, funcionários e informações relacionadas à área contábil.
+Este projeto tem como objetivo desenvolver e organizar um banco de dados para a clínica veterinária Melhor Amigo. O sistema foi pensado para armazenar e organizar informações importantes para o funcionamento da clínica, como dados de clientes, animais de estimação, produtos, serviços, pedidos, estoque, funcionários e informações relacionadas à área contábil.
 
 Inicialmente, o banco de dados havia sido desenvolvido utilizando MySQL. Com a evolução do projeto, surgiu a necessidade de realizar a migração para o PostgreSQL, adaptando a estrutura existente e aproveitando os recursos oferecidos pelo novo Banco de Dados que viria a ser utilizado.
 

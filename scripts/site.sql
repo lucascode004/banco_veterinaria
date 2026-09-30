@@ -208,7 +208,7 @@ FROM site.produto;
 -- evitando que a aplicação precise realizar o JOIN entre as tabelas.
 
 
-CREATE OR REPLACE VIEW site.clientes_pets AS
+CREATE VIEW site.clientes_pets AS
 SELECT
     tc.nome AS cliente,
     p.nome AS pet,
@@ -228,7 +228,7 @@ JOIN site.pet p
 -- no catálogo, mostrando apenas nome e valor.
 
 
-CREATE OR REPLACE VIEW site.produto_catalogo AS
+CREATE VIEW site.produto_catalogo AS
 SELECT
     nome,
     valor

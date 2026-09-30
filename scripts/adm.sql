@@ -91,7 +91,7 @@ CREATE TABLE adm.historico (
 -- permitindo visualizar suas informações de forma rápida
 -- para atividades administrativas.
 
-CREATE OR REPLACE VIEW adm.lista_clientes
+CREATE VIEW adm.lista_clientes
  AS
  SELECT id_cliente,
     nome,
@@ -114,7 +114,7 @@ ALTER TABLE adm.lista_clientes
 -- de forma rápida para acompanhamento administrativo.
 
 
-CREATE OR REPLACE VIEW adm.relatorio_funcionarios
+CREATE VIEW adm.relatorio_funcionarios
  AS
  SELECT id_funcionario,
     nome,

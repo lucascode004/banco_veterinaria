@@ -124,14 +124,12 @@ CREATE TABLE site.servico (
 -- DADOS: TUTOR_CLIENTE
 -- ========================================================
 
-INSERT INTO site.tutor_cliente
-(id_cliente, nome, cpf, telefone, endereco)
+INSERT INTO site.tutor_cliente (nome, cpf, telefone, endereco)
 VALUES
-(1, 'Rodrigo de Oliveira', '111.333.555-77', '99707070',
- 'Rua fulano de tal numero 1, aquele bairro lá.'),
-
-(2, 'Rodrigo de Oliveira', '111.333.555-77', '99707070',
- 'Rua fulano de tal numero 1, aquele bairro lá.');
+('Mariana Alves', '123.456.789-01', '(32) 99911-2233', 'Rua das Flores, 120'),
+('Carlos Mendes', '234.567.890-12', '(32) 99822-3344', 'Av. Astolfo Dutra, 450'),
+('Fernanda Souza', '345.678.901-23', '(32) 99733-4455', 'Rua João XXIII, 85'),
+('Lucas Ferreira', '456.789.012-34', '(32) 99644-5566', 'Rua Coronel Vieira, 210');
 
 
 -- ========================================================

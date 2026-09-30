@@ -12,6 +12,13 @@ CREATE TABLE adm.funcionarios (
     beneficio VARCHAR(255) DEFAULT NULL
 );
 
+INSERT INTO adm.funcionarios (nome, setor, salario, beneficio)
+VALUES
+('Ana Carolina', 'Administrativo', '2500.00', 'Vale transporte'),
+('Bruno Henrique', 'Atendimento', '2200.00', 'Vale alimentação'),
+('Juliana Martins', 'Financeiro', '2800.00', 'Vale alimentação'),
+('Rafael Souza', 'Estoque', '2100.00', 'Vale transporte');
+
 CREATE TABLE adm.estoque (
     id_estoque SERIAL PRIMARY KEY,
     id_produto_fk INT NOT NULL,
